@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Engineering Coursee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="./img/favicon.png" />
+</head>
+
+<body>
+    <div class="container" id="#">
+        <button class="menu-icon" onclick="location.href = '#popupmenu'">
+            <hr class="menu-hr" />
+            <hr class="menu-hr" />
+            <hr class="menu-hr" />
+        </button>
+        <div id="popupmenu" class="overlay">
+            <div class="popup popup-menu">
+                <div><a class="itemButton" href="">01  START</a></div>
+                <div><a class="itemButton" href="#lectures">02  COURSE LECTURES</a></div>
+                <div><a class="itemButton" href="#related-books">03  RELATED BOOKS</a></div>
+                <div><a class="close" href="#">&times;</a></div>
+            </div>
+        </div>
+        <div class="header">
+            <div id="header-text">I N T E R N E T</div>
+            <div id="header-text">E N G I N E E R I N G</div>
+            <div id="header-text1">IS WHAT WE ARE GOING TO</div>
+            <div id="header-text2">LEARN IN THIS COURSE</div>
+            <button class="header-button" onclick="location.href='#related-books'">SEE THIS COURSE RELATED BOOKS</button>
+        </div>
+          
+  
+
+        <div class="course-lectures" id="lectures">
+            <div class="lecture-card">
+                <img class="lecture-card-img" src="./img/http_icon.png">
+                <h4>HTTP</h2>
+                <p class="lecture-card-text">
+                    The Hypertext Transfer Protocol is an application layer protocol.
+                    Communication between client computers and web servers is done by sending HTTP Requests
+                    and recieving HTTP Responses.
+                </p>
+            </div>
+            <div class="lecture-card">
+                <img class="lecture-card-img" src="./img/css_icon.png">
+                <h4>HTML CSS</h2>
+                <p class="lecture-card-text">
+                    HTML (HyperText Markup Language) is the standard markup language for Web pages.
+                    CSS is the language we use to style an HTML document.
+                    CSS describes how HTML elements should be displayed.
+                </p>
+            </div>
+            <div class="lecture-card">
+                <img class="lecture-card-img" src="./img/js_icon.png">
+                <h4>JavaScript</h2>
+                <p class="lecture-card-text">
+                    JavaScript is the programming language of the Web. JavaScript often abbreivated to
+                    JS is a lightweight, interpreted, or just-in-time compiler programming language
+                    with first-class functions.
+                </p>
+            </div>
+            <div class="lecture-card">
+                <img class="lecture-card-img" src="./img/go_icon.png">
+                <h4>GOLANG</h2>
+                <p class="lecture-card-text">
+                    Go language is a programming language initially developed at Google. It is a statically
+                    typed language having syntax similar to that of C. Go is used to create computer programs.
+                </p>
+            </div>
+            
+        </div>
+      
+        <h1 class="related-books-title">MOST POPULAR BOOKS</h1>
+        <div id="related-books">
+            
+            <div class="related-books-item">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="books-img" src="./img/Book1-2.png">
+                        <h1>JavaScript Guide</h1>
+                        <p>by David Flanagan</p>
+                        <p>Seventh edition</p>
+                        <p>Published at 2020</p>
+                    </div>
+                        
+                    <div class="flip-card-back">
+                        <h2>Price : $30.00</h2>
+                        <button class="book-button" onclick="location.href='#book1-popup'">BUY</button>
+                    </div>
+                </div>
+            </div>
+            <div class="related-books-item">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="books-img" src="./img/Book2-2.jpg">
+                        <h1>Road to React</h1>
+                        <p>by Robin Wieruch</p>
+                        <p>Seventh edition</p>
+                        <p>Published at 2020</p>
+                    </div>
+                        
+                    <div class="flip-card-back">
+                        <h2>Price : $25</h2>
+                        <button class="book-button" onclick="location.href='#book2-popup'">BUY</button>
+                    </div>
+                </div>
+            </div>
+            <div class="related-books-item">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="books-img" src="./img/Book3-2.png">
+                        <h1>Introducing Go</h1>
+                        <p>by Caleb Doxsey</p>
+                        <p>First edition</p>
+                        <p>Published at 2016</p>
+                    </div>
+                        
+                    <div class="flip-card-back">
+                        <h2>Price : $40</h2>
+                        <button class="book-button" onclick="location.href='#book3-popup'">BUY</button>
+                    </div>
+                </div>
+            </div>
+            <div id="books-contents">
+                <div id="book1-popup" class="overlay">
+                    <div class="popup-book">
+                        <img class="books-popup-img" src="./img/Book1-1.jpg">
+                        <div class="books-popup-info">
+                            <h2 class="books-popup-title">START READING NOW</h2>
+                            <h5 class="books-popup-subtitle">IMPORTANT - PLEASE READ THESE TERMS BEFORE BUYING THE BOOK</h5>
+                            <div class="newspaper">
+                                JavaScript is the programming language of the web and is used 
+                                by more software developers today than any other programming 
+                                language. For nearly 25 years this best seller has been the go-to 
+                                guide for JavaScript programmers. The seventh edition is fully 
+                                updated to cover the 2020 version of JavaScript, and new chapters 
+                                cover classes, modules, iterators, generators, Promises, async/await, 
+                                and metaprogramming. Youll find illuminating and engaging example 
+                                code throughout.
+                                This book is for programmers who want to learn JavaScript and for web 
+                                developers who want to take their understanding and mastery to the next 
+                                level. It begins by explaining the JavaScript language itself, in detail,
+                                from the bottom up. It then builds on that foundation to cover the web 
+                                platform and Node.js.
+                            </div>
+                            
+                            <button class="book-button" onclick="location.href='https://www.amazon.com/gp/product/1491952024/'">BUY NOW</button>
+                            <a class="close" href="#related-books">&times;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="books-contents">
+                <div id="book2-popup" class="overlay">
+                    <div class="popup-book">
+                        <img class="books-popup-img" src="./img/Book2-1.jpg">
+                        <div class="books-popup-info">
+                            <h2 class="books-titles-popup">START READING NOW</h2>
+                            <h5 class="books-popup-subtitle">IMPORTANT - PLEASE READ THESE TERMS BEFORE BUYING THE BOOK</h5>
+                            <div class="newspaper">
+                                React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community
+                                of individual developers and companies. React can be used as a base in the development of single-page or
+                                mobile applications. However, React is only concerned with rendering data to the DOM, and so creating React 
+                                applications usually requires the use of additional libraries for state management and routing. 
+                                Redux and React Router are respective examples of such libraries. 
+                            </div>
+                            <button class="book-button" onclick="location.href='https://www.amazon.com/Road-learn-React-pragmatic-React-js/dp/172004399X/ref=d_pd_sbs_sccl_2_3/130-5751593-0029724?pd_rd_w=m9yJh&content-id=amzn1.sym.3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=MN81G3T0MAX9FR9FAENV&pd_rd_wg=XsyuS&pd_rd_r=c3fff6b6-0e60-41bd-b038-2e16c81b5390&pd_rd_i=172004399X&psc=1'">BUY NOW</button>
+                            <a class="close" href="#related-books">&times;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="books-contents">
+                <div id="book3-popup" class="overlay">
+                    <div class="popup-book">
+                        <img class="books-popup-img" src="./img/Book3-1.jpg">
+                        <div class="books-popup-info">
+                            <h2 class="books-titles-popup">START READING NOW</h2>
+                            <h5 class="books-popup-subtitle">IMPORTANT - PLEASE READ THESE TERMS BEFORE BUYING THE BOOK</h5>
+                            <div class="newspaper">
+                                Golang  is a programming language created at Google in 2007 by Robert Griesemer, Rob Pike, and
+                                Ken Thompson. It is a compiled, statically typed language in the tradition of Algol and C, with 
+                                garbage collection, limited structural typing, memory safety features and CSP-style concurrent 
+                                programming features added. The compiler, tools and source code are all free and open source. 
+                                The language is often referred to as Golang because of its domain name, golang.org, but the proper name is Go.
+                            </div>
+                            <button class="book-button" onclick="location.href='https://www.amazon.fr/dp/1491941952?psc=1&th=1&linkCode=gs2&tag=vhpoet0ca-21'">BUY NOW</button>
+                            <a class="close" href="#related-books">&times;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer-left">
+                <div><a class="footer-text" href="#">CLASS INFO</a></div>
+                <div><a class="footer-text" href="#">CONTACT US</a></div>
+                <div><a class="footer-text" href="#">PRIVACY POLICY</a></div>
+                <div><a class="footer-text" href="#">TERMS</a></div>
+            </div>
+            <div class="footer-right">
+                    Built by Raha Ahmadi for Internet Engineering course ADVANCED HTML & CSS. 
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
